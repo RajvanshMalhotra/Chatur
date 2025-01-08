@@ -46,7 +46,7 @@ def get_conversational_chain():
 
    
     prompt_template = """
-    # Answer the question as explanatory as possible from the provided context, read the queestion carefully and be aware of it while answering , make sure to provide all the details, if the answer is not in
+    # Answer the question as detailed as possible from the provided context, read the queestion carefully and be aware of it while answering , make sure to provide all the details, if the answer is not in
     # provided context just say, "answer is not available in the context", dont go outside the scope of the question dont make up answers forcefully just say no if you don know.\n\n
     Context:\n {context}?\n
     Question: \n{question}\n
